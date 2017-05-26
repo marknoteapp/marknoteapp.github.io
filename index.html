@@ -11,6 +11,20 @@
 </head>
 
 <body>
+    <header class="topbar">
+
+        <div class="wrapper nav-top">
+            <a href="index.html"><img src="40.png" /></a>
+            
+                <a href="#why">Why MarkNote?</a>
+                <a href="#features">Features</a>
+                <a href="#getit">Get it</a>
+                <a href="#support">Support</a>
+            
+        </div>
+
+
+    </header>
     <div class="page-content">
 
         <div class="wrapper">
@@ -33,6 +47,7 @@
                             <div id="typed-strings">
                                 <span>MarkNotes is a <strong>markdown</strong> and <strong>iCloud</strong> powered writing app.</span>
                                 <p>It <em>helps</em> you to make writing easy</p>
+                                <p>Write with <strong>markdown</strong>, store documents into <strong>iCloud</strong></p>
                                 <p>Your documents are <strong>synced</strong> across all your devices</p>
                                 <p>Try it out!</p>
                                 <p>Write, simply.</p>
@@ -40,8 +55,10 @@
                             <br/>
                             <span id="typed" style="white-space:pre;"></span>
                         </div>
+                        <a name="why"/>
                         <img src='https://github.com/marknote/marknoteapp/blob/master/Desktop.png?raw=true' /></section>
                     <section id="main">
+                        
                         <h2>Why MarkNote?</h2>
                         <div class="description">
                             <strong><p>Enjoy the simplicity of plain text and markdown</p>
@@ -63,10 +80,12 @@
                                 <li>Instant search on your notes</li>
                             </ul>
                         </div>
+                        <a name="features"/>
                     </section>
 
-
+                    
                     <section id="features">
+                        
                         <h2>Features</h2>
                         <h4>Paste and embed images while writing</h4>
                         <video id="video" style='width:100%;' src="https://github.com/marknote/marknoteapp/blob/master/videos/marknotes_copy_paste_images.mov?raw=true"
@@ -77,6 +96,7 @@
                     </section>
 
                     <section id="getit">
+                        <a name="getit"/>
                         <h2>Get it</h2>
                         <p>MarkNotes is available from Mac App Store and iOS App Store</p>
                         <div class="button macappstore">
@@ -91,6 +111,7 @@
                     <section id="footer">
                         <div>
                             <h2>
+                                <a name="support"/>
                                 <p>Support</p>
                             </h2>If you have any feedback or questions, reach us by
                             <a href='mailto:marknote@aliyun.com'>
@@ -117,7 +138,7 @@
             stringsElement: document.getElementById('typed-strings'),
             typeSpeed: 30,
             backDelay: 500,
-            loop: false,
+            loop: true,
             contentType: 'html', // or text
             // defaults to null for infinite loop
             loopCount: null,

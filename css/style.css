@@ -1017,7 +1017,7 @@ blockquote > :last-child {
  * Page content
  */
 .page-content {
-    padding: 30px 0; }
+    padding: 80px 0; }
 
 .page-heading {
     font-size: 20px; }
@@ -1110,7 +1110,7 @@ li {
 
                         h1,
                         h2 {
-                            color: #7CEA75;
+                            /*color: #7CEA75;*/
                             text-align: center;
                         }
 
@@ -1200,6 +1200,28 @@ li {
                                 height: 400px;
                             }
                         }
+
+header.topbar{
+    background-color: #f8f6f6;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    opacity: 0.9;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+div.nav-top{
+    font-size: 1.2em;
+    background-color: #f8f6f6;
+}
+div.nav-top a{
+    margin-left: 20px; 
+    margin-right: 20px; 
+}
+div.nav-top img{
+    height:48px;
+}
 
 
 
