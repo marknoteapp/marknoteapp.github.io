@@ -224,7 +224,7 @@ h1 {
     padding-bottom: 0.3em;
     font-size: 1.8em;
     line-height: 1.2;
-    border-bottom: 1px solid #eee;
+    /*border-bottom: 1px solid #eee;*/
 }
 
 h1 .anchor {
@@ -235,7 +235,7 @@ h2 {
     padding-bottom: 0.3em;
     font-size: 1.6em;
     line-height: 1.225;
-    border-bottom: 1px solid #eee;
+    /*border-bottom: 1px solid #eee;*/
 }
 
 h2 .anchor {
@@ -1095,7 +1095,7 @@ li {
  body,
                         p {
                             color: #eee;
-                            background-color: #EBF0EB;
+                            /*background-color: #EBF0EB;*/
                         }
 
                         section,
@@ -1125,13 +1125,13 @@ li {
                         }
 
                         @media screen and (max-width: 800px) .wrapper {
-                            background-color: #EBF0EB;
+                            /*background-color: #EBF0EB;*/
                             padding-right: 0;
                             padding-left: 0;
                         }
 
                         .wrapper {
-                            background-color: #EBF0EB;
+                            /*background-color: #EBF0EB;*/
                             max-width: -webkit-calc(800px - (30px * 2));
                             max-width: calc(800px - (30px * 2));
                             margin-right: auto;
@@ -1184,8 +1184,9 @@ li {
                             display: inline-block;
                         }
 
-                        section#footer {
-                            background-color: #EBF0EB;
+                        footer#footer {
+                            /*background-color: #EBF0EB;*/
+                            background-color: #eee;
                             padding: 40px 20px 20px 20px;
                             text-align: center;
                         }
