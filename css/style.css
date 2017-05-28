@@ -1093,10 +1093,7 @@ li {
 }
 
  body,
-                        p {
-                            color: #eee;
-                            /*background-color: #EBF0EB;*/
-                        }
+                        
 
                         section,
                         section p,
@@ -1184,7 +1181,7 @@ li {
                             display: inline-block;
                         }
 
-                        footer#footer {
+                        div#footer {
                             /*background-color: #EBF0EB;*/
                             background-color: #eee;
                             padding: 40px 20px 20px 20px;
